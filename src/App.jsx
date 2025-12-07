@@ -7,7 +7,9 @@ import { CountContext } from "./context";
    < CountContext.Provider value={count}>
    <Count setCount={setCount} />
    </CountContext.Provider>
-   hiii 
+   hii
+   then 
+   how is life
    </div>
   )
   }
