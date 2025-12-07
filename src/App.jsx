@@ -15,14 +15,12 @@ import { CountContext } from "./context";
   )
   }
 
-
   function Count ( {setCount} ) {
   return <div>
   <CountRenderer />
   <Buttons setCount={setCount} />
   </div>
   }
-
 
 function CountRenderer( ) {
 const count = useContext(CountContext) ;
@@ -43,7 +41,5 @@ setCount (count - 1)
 }}>-</button>
 </div>
 }
-
-
 
 export default App
